@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/woodpecker-trainer-live-v2/sw.js', { scope: '/woodpecker-trainer-live-v2/' })})}
